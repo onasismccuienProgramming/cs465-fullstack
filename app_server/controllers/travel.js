@@ -1,5 +1,5 @@
 /* GET travel view */
-const travel = (reg, res) => {
+const travel = (req, res) => {
     res.render('travel', { title: 'Travlr Getaways'});
 };
 
